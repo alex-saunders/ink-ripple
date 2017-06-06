@@ -19,13 +19,12 @@ The Ink Ripple web component aims to provide a simple and customizable ripple ef
 ```
 -->
 ```html
-<div class="demo-paper">
+<div>
   <ink-ripple></ink-ripple>
 </div>
 ```
 
-
-## Control the appearance of the ripple
+# Styling the ripple
 
 You have the ability to control the accent colour and opacity of the ripple through the use of CSS variables, the default colour is black with an opacity of 0.15
 
@@ -43,12 +42,12 @@ You have the ability to control the accent colour and opacity of the ripple thro
 -->
 ```html
 <style>
-  .demo-paper ink-ripple {
+  ink-ripple {
     --ink-ripple-accent-color: green;
     --ink-ripple-opacity: 0.6;
   }
 </style>
-<div class="demo-paper">
+<div>
   <ink-ripple></ink-ripple>
 </div>
 ```
