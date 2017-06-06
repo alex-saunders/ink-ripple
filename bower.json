@@ -1,0 +1,17 @@
+{
+  "name": "inkripple",
+  "license": "MIT",
+  "authors": [
+    "Alex Saunders <alexjrsaunders@gmail.com>"
+  ],
+  "keywords": [
+    "web-components",
+    "custom-element",
+    "vanilla-js"
+  ],
+  "main": [
+    "ink-button.js",
+    "ink-button.html"
+  ],
+  "version": "0.0.1"
+}
