@@ -1,20 +1,23 @@
-      .demo-paper {
-        position: relative;
-        float: left;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100px;
-        width: 200px;
-        background: white;
-        box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
-        margin: 8px;
-        padding: 0 16px;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 500;
-        transition: box-shadow .2s ease-in-out;
-      }
-      .demo-paper:active {
-        box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
-      }
+body {
+  background: #f5f5f5;
+}
+.demo-paper {
+  position: relative;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 200px;
+  background: white;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+  margin: 8px;
+  padding: 0 16px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  transition: box-shadow .2s ease-in-out;
+}
+.demo-paper:active {
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}

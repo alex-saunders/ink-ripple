@@ -24,6 +24,7 @@ The Ink Ripple web component aims to provide a simple and customizable ripple ef
 </div>
 ```
 
+
 ## Control the appearance of the ripple
 
 You have the ability to control the accent colour and opacity of the ripple through the use of CSS variables, the default colour is black with an opacity of 0.15
