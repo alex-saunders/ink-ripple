@@ -1,4 +1,16 @@
-
+/**
+ * ### Styling
+ * 
+ * `<paper-button>` provides the following custom properties and mixins
+ * for styling:
+ * 
+ * 
+ * Custom property | Description | Default
+ * ----------------|-------------|----------
+ * `--paper-button-ink-color` | Background color of the ripple | Based on the button's color
+ * `--paper-button` | Mixin applied to the button | `{}`
+ * 
+ */
 class InkRipple extends HTMLElement {
 
   constructor() {
@@ -134,10 +146,11 @@ class InkRipple extends HTMLElement {
   }
 
   /**
-   * Applies awesomeness to `element`.
-   *
-   * @param {number} x The element to be made awesome.
-   * @param {number} y The numeric level of awesomeness. A value
+   * Simulates a ripple effect at the given parameter coordinates
+   * If missing one or both parameters, ripple originates from center
+   * 
+   * @param {number} x The X coordinate of the ripple origin
+   * @param {number} y The Y coordinate of the ripple origin
    *     between `1` and `11`.
    * @return {number} The cumulative level of awesomeness.
    */
