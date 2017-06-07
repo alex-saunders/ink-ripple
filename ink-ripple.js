@@ -108,11 +108,6 @@ class InkRipple extends HTMLElement {
     }
   }
 
-  /**
-   * Metadata describing what has been made awesome on the page.
-   *
-   * @type {Boolean}
-   */
   set disabled(val) {
     if (val) {
       this.setAttribute('disabled', '');
