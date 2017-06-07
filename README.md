@@ -6,6 +6,8 @@ The Ink Ripple web component aims to provide a simple, customizable and dependen
 - Support for customizable accent colours
 - Allows 'simulated' ripples (those triggered programatically and not by pointer events)
 
+**note:** the parent element of the ink-ripple must be positioned using one of relative, absolute, fixed or sticky.
+
 <!--
 ```
 <custom-element-demo>
@@ -58,7 +60,7 @@ You have the ability to control the accent colour and opacity of the ripple thro
 
 Ripples can be triggered progamatically through the user of the `simulateRipple(x, y)` method. This method takes 2 parameters, `x` & `y`, representing the offset x and y coordinates of the ripple's origin, relative to the parent element. If one or both of these parameters are not given, the ripple will originate from the center of the element.
 
-Disabled ink-ripple's can still be triggered throught the use of `simulateRipple`
+Disabled ink-ripple's can still be triggered through the use of `simulateRipple`
 
 <!--
 ```
@@ -100,9 +102,9 @@ Disabled ink-ripple's can still be triggered throught the use of `simulateRipple
 -->
 ```html
 <div>
-  <ink-ripple></ink-ripple>
+  <ink-ripple disabled></ink-ripple>
 </div>
-<button>simulateRipple(1,1)</button>
+<button>simulateRipple(1, 1)</button>
 <script>
   const ripple = document.querySelector('ink-ripple');
   const btn = document.querySelector('button');
@@ -112,4 +114,25 @@ Disabled ink-ripple's can still be triggered throught the use of `simulateRipple
 </script>
 ```
 
-## Disable  ripple effect
+## Disable ripple effect
+
+Ripples can be disabled by setting the `disabled` attribute on the element. Disabled ink-ripple's do not respond to pointer events.
+
+<!--
+```
+<custom-element-demo>
+  <template>
+    <link rel="stylesheet" href="demo/styles.css">
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="ink-ripple.js"></script>
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
+```html
+<div>
+  I am disabled
+  <ink-ripple disabled></ink-ripple>
+</div>
+```
