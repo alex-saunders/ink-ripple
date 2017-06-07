@@ -133,6 +133,14 @@ class InkRipple extends HTMLElement {
     });
   }
 
+  /**
+   * Applies awesomeness to `element`.
+   *
+   * @param {number} x The element to be made awesome.
+   * @param {number} x The numeric level of awesomeness. A value
+   *     between `1` and `11`.
+   * @return {number} The cumulative level of awesomeness.
+   */
   simulateRipple(x = false, y = false) {
 
     if (!x || !y) {
