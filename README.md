@@ -1,5 +1,7 @@
 # ink-ripple
 
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/alex-saunders/ink-ripple)
+
 The Ink Ripple web component aims to provide a simple, customizable and dependency-free ripple effect, as defined by material design [motion & radial reaction](https://material.io/guidelines/motion/choreography.html#choreography-radial-reaction).
 
 - Responds to pointer events to control the ripple
