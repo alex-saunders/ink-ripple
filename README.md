@@ -25,7 +25,7 @@ The Ink Ripple web component aims to provide a simple, customizable and dependen
 </div>
 ```
 
-# Styling the ripple
+## Styling the ripple
 
 You have the ability to control the accent colour and opacity of the ripple through the use of CSS variables, the default colour is black with an opacity of 0.15
 
@@ -67,10 +67,6 @@ Disabled ink-ripple's can still be triggered throught the use of `simulateRipple
     <link rel="stylesheet" href="demo/styles.css">
     <script src="../webcomponentsjs/webcomponents-lite.js"></script>
     <script src="ink-ripple.js"></script>
-    <script>
-      const ripple = document.querySelector('ink-ripple');
-      const btn = document.querySelector('button');
-    </script>
     <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
@@ -82,6 +78,8 @@ Disabled ink-ripple's can still be triggered throught the use of `simulateRipple
 </div>
 <button>simulateRipple()</button>
 <script>
+  const ripple = document.querySelector('ink-ripple');
+  const btn = document.querySelector('button');
   btn.addEventListener('click', () => {
     ripple.simulateRipple();
   });
@@ -95,10 +93,6 @@ Disabled ink-ripple's can still be triggered throught the use of `simulateRipple
     <link rel="stylesheet" href="demo/styles.css">
     <script src="../webcomponentsjs/webcomponents-lite.js"></script>
     <script src="ink-ripple.js"></script>
-    <script>
-      const ripple = document.querySelector('ink-ripple');
-      const btn = document.querySelector('button');
-    </script>
     <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
@@ -110,6 +104,8 @@ Disabled ink-ripple's can still be triggered throught the use of `simulateRipple
 </div>
 <button>simulateRipple(1,1)</button>
 <script>
+  const ripple = document.querySelector('ink-ripple');
+  const btn = document.querySelector('button');
   btn.addEventListener('click', () => {
     ripple.simulateRipple(1, 1);
   });
