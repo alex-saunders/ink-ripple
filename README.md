@@ -20,6 +20,7 @@ The Ink Ripple web component aims to provide a simple, customizable and dependen
 -->
 ```html
 <div>
+  Click me!
   <ink-ripple></ink-ripple>
 </div>
 ```
@@ -48,6 +49,7 @@ You have the ability to control the accent colour and opacity of the ripple thro
   }
 </style>
 <div>
+  Click me!
   <ink-ripple></ink-ripple>
 </div>
 ```

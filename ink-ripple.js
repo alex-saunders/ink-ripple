@@ -1,14 +1,14 @@
 /**
- * ### Styling
+ * # Styling
  * 
- * `<paper-button>` provides the following custom properties and mixins
+ * `<ink-ripple>` provides the following custom properties and mixins
  * for styling:
  * 
  * 
  * Custom property | Description | Default
  * ----------------|-------------|----------
- * `--paper-button-ink-color` | Background color of the ripple | Based on the button's color
- * `--paper-button` | Mixin applied to the button | `{}`
+ * `--ink-ripple-accent-color` | black
+ * `--ink-ripple-opacity` | Opacity of the ripple | 0.15
  * 
  */
 class InkRipple extends HTMLElement {
@@ -108,6 +108,11 @@ class InkRipple extends HTMLElement {
     }
   }
 
+  /**
+   * Metadata describing what has been made awesome on the page.
+   *
+   * @type {Boolean}
+   */
   set disabled(val) {
     if (val) {
       this.setAttribute('disabled', '');
