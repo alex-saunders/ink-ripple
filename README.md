@@ -1,8 +1,8 @@
 # ink-ripple
 
-The Ink Ripple web component aims to provide a simple and customizable ripple effect, as defined by material design [motion & radial reaction](https://material.io/guidelines/motion/choreography.html#choreography-radial-reaction). It is designed to work when placed within any non-inline element.
+The Ink Ripple web component aims to provide a simple, customizable and dependency-free ripple effect, as defined by material design [motion & radial reaction](https://material.io/guidelines/motion/choreography.html#choreography-radial-reaction). It is designed to work when placed within any non-inline element.
 
-- Responds to mousedown/up effects to control the ripple
+- Responds to pointer events to control the ripple
 - Support for customizable accent colours
 - Allows 'simulated' ripples (those triggered programatically and not by pointer events)
 
