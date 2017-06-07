@@ -146,13 +146,12 @@ class InkRipple extends HTMLElement {
   }
 
   /**
-   * Simulates a ripple effect at the given parameter coordinates
+   * Simulates a ripple effect at the given parameter coordinates.
+   * 
    * If missing one or both parameters, ripple originates from center
    * 
    * @param {number} x The X coordinate of the ripple origin
    * @param {number} y The Y coordinate of the ripple origin
-   *     between `1` and `11`.
-   * @return {number} The cumulative level of awesomeness.
    */
   simulateRipple(x = false, y = false) {
 
