@@ -10,11 +10,7 @@
     "vanilla-js"
   ],
   "main": [
-    "ink-ripple.js",
-    "ink-ripple.html"
+    "ink-ripple.js"
   ],
-  "version": "0.0.1",
-  "dependencies": {
-    "sharebutton": "PaulKinlan/share-button#^0.6.1"
-  }
+  "version": "0.0.1"
 }

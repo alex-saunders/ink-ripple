@@ -1,12 +1,12 @@
 # ink-ripple
 
-The Ink Ripple web component aims to provide a simple, customizable and dependency-free ripple effect, as defined by material design [motion & radial reaction](https://material.io/guidelines/motion/choreography.html#choreography-radial-reaction). It is designed to work when placed within any non-inline element.
+The Ink Ripple web component aims to provide a simple, customizable and dependency-free ripple effect, as defined by material design [motion & radial reaction](https://material.io/guidelines/motion/choreography.html#choreography-radial-reaction).
 
 - Responds to pointer events to control the ripple
-- Support for customizable accent colours
+- Support for customizable accent colours & opacity
 - Allows 'simulated' ripples (those triggered programatically and not by pointer events)
 
-**note:** the parent element of the ink-ripple must be positioned using one of relative, absolute, fixed or sticky.
+**note: the parent element of the ink-ripple must be a non-inline element and positioned using relative, absolute, fixed or sticky.**
 
 <!--
 ```
@@ -58,9 +58,9 @@ You have the ability to control the accent colour and opacity of the ripple thro
 
 ## Simulate a ripple effect
 
-Ripples can be triggered progamatically through the user of the `simulateRipple(x, y)` method. This method takes 2 parameters, `x` & `y`, representing the offset x and y coordinates of the ripple's origin, relative to the parent element. If one or both of these parameters are not given, the ripple will originate from the center of the element.
+Ripples can be triggered progamatically through the use of the `simulateRipple(x, y)` method. This method takes 2 parameters, `x` & `y`, representing the offset x and y coordinates of the ripple's origin, relative to the parent element. If one or both of these parameters are not given, the ripple will originate from the center of the element.
 
-Disabled ink-ripple's can still be triggered through the use of `simulateRipple`
+Disabled ink-ripples can still be triggered through the use of `simulateRipple`.
 
 <!--
 ```
@@ -116,7 +116,7 @@ Disabled ink-ripple's can still be triggered through the use of `simulateRipple`
 
 ## Disable ripple effect
 
-Ripples can be disabled by setting the `disabled` attribute on the element. Disabled ink-ripple's do not respond to pointer events.
+Ripples can be disabled by setting the `disabled` attribute on the element. Disabled ink-ripples do not respond to pointer events.
 
 <!--
 ```
