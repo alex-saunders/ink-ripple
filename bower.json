@@ -10,7 +10,8 @@
     "vanilla-js"
   ],
   "main": [
-    "ink-ripple.js"
+    "ink-ripple.js",
+    "ink-ripple.html"
   ],
   "version": "0.0.1"
 }
